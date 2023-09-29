@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.33927.289
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KosovskihVA.Sprint0.Task0", "Tyuiu.KosovskihVA.Sprint0.Task0\Tyuiu.KosovskihVA.Sprint0.Task0.csproj", "{3403B35C-C6D5-4AB3-8B14-16B049C7719B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{FEE610F2-20F5-401F-94F2-EEBCB7FA9066}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{05B3BFE6-2C74-41F0-82FA-A577C4612DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KosovskihVA.Sprint0.Task1.V0", "Tyuiu.KosovskihVA.Sprint0.Task1.V0\Tyuiu.KosovskihVA.Sprint0.Task1.V0.csproj", "{05B61594-B871-4060-870B-8C61B8902844}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{3403B35C-C6D5-4AB3-8B14-16B049C7719B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3403B35C-C6D5-4AB3-8B14-16B049C7719B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3403B35C-C6D5-4AB3-8B14-16B049C7719B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B61594-B871-4060-870B-8C61B8902844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B61594-B871-4060-870B-8C61B8902844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B61594-B871-4060-870B-8C61B8902844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B61594-B871-4060-870B-8C61B8902844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3403B35C-C6D5-4AB3-8B14-16B049C7719B} = {FEE610F2-20F5-401F-94F2-EEBCB7FA9066}
+		{05B61594-B871-4060-870B-8C61B8902844} = {05B3BFE6-2C74-41F0-82FA-A577C4612DCB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21A96F13-7838-4ECA-A12D-8A0E0FAD0B78}
